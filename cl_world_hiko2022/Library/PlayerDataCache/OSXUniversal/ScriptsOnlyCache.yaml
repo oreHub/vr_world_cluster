@@ -5,6 +5,8 @@ ScriptsOnlyBuild:
     ClusterVR.CreatorKit.Editor.dll:
     - ClusterVR.CreatorKit.Editor.Builder.BuiltAssetBundlePaths
     - ClusterVR.CreatorKit.Editor.Window.View.VenueUploadWindow
+    ClusterVR.CreatorKit.Preview.dll:
+    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.CommentScreenViews.StandardCommentScreenView
     - ClusterVR.CreatorKit.World.Implements.CommentScreenViews.StandardCommentScreenViewCell
@@ -230,4 +232,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/venue_060b308f8a456d8b781ba48a92.unity
-  playerPath: C:/Users/S07710/AppData/Local/Temp/DefaultCompany/cl_world_hiko2022/StandaloneOSX/venue_060b308f8a456d8b781ba48a92
+  playerPath: /var/folders/71/fr14_tld4k7b88dm2sjg7w_r0000gn/T/DefaultCompany/cl_world_hiko2022/StandaloneOSX/venue_060b308f8a456d8b781ba48a92
