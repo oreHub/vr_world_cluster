@@ -5,8 +5,6 @@ ScriptsOnlyBuild:
     ClusterVR.CreatorKit.Editor.dll:
     - ClusterVR.CreatorKit.Editor.Builder.BuiltAssetBundlePaths
     - ClusterVR.CreatorKit.Editor.Window.View.VenueUploadWindow
-    ClusterVR.CreatorKit.Preview.dll:
-    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.CommentScreenViews.StandardCommentScreenView
     - ClusterVR.CreatorKit.World.Implements.CommentScreenViews.StandardCommentScreenViewCell
@@ -18,10 +16,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     - UnityEditor.Graphs.ParameterControllerEditor
     UnityEditor.TestRunner.dll:
@@ -71,39 +67,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11258}
     - Class: 114
-      Script: {instanceID: 11422}
+      Script: {instanceID: 11746}
     - Class: 114
-      Script: {instanceID: 11510}
+      Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11878}
     - Class: 114
-      Script: {instanceID: 11690}
+      Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 11710}
+      Script: {instanceID: 12036}
     - Class: 114
-      Script: {instanceID: 11830}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 11956}
+      Script: {instanceID: 12260}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 12284}
     - Class: 114
-      Script: {instanceID: 12426}
+      Script: {instanceID: 12318}
     - Class: 114
-      Script: {instanceID: 12766}
+      Script: {instanceID: 12756}
     - Class: 114
-      Script: {instanceID: 12896}
+      Script: {instanceID: 13098}
     - Class: 114
-      Script: {instanceID: 12920}
+      Script: {instanceID: 13228}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 13252}
     - Class: 114
-      Script: {instanceID: 13424}
+      Script: {instanceID: 13306}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13756}
     - Class: 114
-      Script: {instanceID: 42870}
+      Script: {instanceID: 14034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -115,6 +111,8 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -171,6 +169,12 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
+      Hash: 7c5084f22bda962db730d7217e88651b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: LowPolyWater
+    className: LowPolyWater
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -223,13 +227,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: 7c5084f22bda962db730d7217e88651b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: LowPolyWater
-    className: LowPolyWater
   platform: 2
   scenePathNames:
   - Assets/venue_060b308f8a456d8b781ba48a92.unity
-  playerPath: /var/folders/71/fr14_tld4k7b88dm2sjg7w_r0000gn/T/DefaultCompany/cl_world_hiko2022/StandaloneOSX/venue_060b308f8a456d8b781ba48a92
+  playerPath: C:/Users/S07710/AppData/Local/Temp/DefaultCompany/cl_world_hiko2022/StandaloneOSX/venue_060b308f8a456d8b781ba48a92
